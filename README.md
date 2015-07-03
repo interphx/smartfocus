@@ -15,19 +15,19 @@ The most common use case is to disable highlighting of focused HTML elements whe
 2. Initialize it (parameters are optional, these are the defaults):
 ```
 $(document).smartfocus({
-        mouseClass: 'focus-mouse',
-        keyboardClass: 'focus-keyboard'
-    });
+    mouseClass: 'focus-mouse',
+    keyboardClass: 'focus-keyboard'
+});
 ```
 3. Add the following to your CSS:
 ```
-    *:focus {
-        outline-width: 0;
-    }
-    
-    .focus-keyboard {
-        outline-width: medium;
-    }
+*:focus {
+    outline-width: 0;
+}
+
+.focus-keyboard {
+    outline-width: medium;
+}
 ```
 That's all!
 
