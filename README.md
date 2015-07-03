@@ -1,6 +1,6 @@
 # Smartfocus
 
-A jQuery plugin for detecting elements focused with keyboard or mouse. It adds specified classes to ```:focus``` elements depending on whether they were focused with mouse or keyboard.
+A jQuery plugin for detecting elements focused with keyboard or mouse. It adds specified classes to ```:focus``` elements depending on whether they were focused with mouse or keyboard. Requires jQuery 2.0 or newer.
 
 ### Usage
 
@@ -8,7 +8,7 @@ This plugin adds specified classes to elements focused using mouse or keyboard.
 
 The most common use case is to disable highlighting of focused HTML elements when user clicks on them, but preserve the outline when one selects them using their keyboard (e.g. TAB key).
 
-1. Add the script to your page:
+1. Add the script to your page (jQuery should be added before it):
 ```
 <script src="jquery.smartfocus.js"></script>
 ```
